@@ -1,3 +1,4 @@
+/* created by freyjapaws */
 /* modified from original by bob */
 
 #include <windows.h>
