@@ -12,4 +12,4 @@ Blocks schoolwork sites!
 
 # SwissMiss
 
-For a little project... blocks GeoFS
+For a little project... blocks GeoFS, Discord, and the GeoFS wiki, and insults the founder of GeoFS' SwissAF.
