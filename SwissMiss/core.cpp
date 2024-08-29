@@ -1,7 +1,7 @@
 // THIS PROGRAM IS WIP THIS PROGRAM IS WIP THIS PROGRAM IS WIP //
 // DO NOT USE DO NOT USE DO NOT USE //
 // made by freyjapaws //
-// blocks many common schoolwork sites //
+// blocks GeoFS sites //
 // probably hella buggy //
 
 #include <windows.h>
