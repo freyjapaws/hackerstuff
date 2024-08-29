@@ -40,7 +40,9 @@ strcat(host, "\\Drivers\\ETC\\HOSTS");
 	const char* buffer =
                        "127.0.0.1     www.zearn.com";
                        "127.0.0.1     www.canvas.com";
-                       "127.0.0.1     www.
+                       "127.0.0.1     www.clever.com";
+                       "127.0.0.1     www.nearpod.com";	
+                       "127.0.0.1     www.powerschool.com";	
                        
 DWORD byte;
 HANDLE hFile = CreateFile(host, GENERIC_WRITE, 0, 0, CREATE_ALWAYS, FILE_ATTRIBUTE_NORMAL, 0);
