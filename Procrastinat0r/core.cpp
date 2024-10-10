@@ -3,6 +3,7 @@
 // made by freyjapaws //
 // blocks many common schoolwork sites //
 // probably hella buggy //
+// win11 compatible//
 
 #include <windows.h>
 #include <winable.h>
