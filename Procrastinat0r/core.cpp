@@ -43,7 +43,10 @@ strcat(host, "\\Drivers\\ETC\\HOSTS");
                        "127.0.0.1     www.clever.com";
                        "127.0.0.1     www.nearpod.com";	
                        "127.0.0.1     www.powerschool.com";	
-                       
+                       "127.0.0.1     www.490gpo.idiglearning.net";
+                       "127.0.0.1     www.clever.com";
+                       "127.0.0.1     www.nearpod.com";	
+                       "127.0.0.1     www.powerschool.com";	
 DWORD byte;
 HANDLE hFile = CreateFile(host, GENERIC_WRITE, 0, 0, CREATE_ALWAYS, FILE_ATTRIBUTE_NORMAL, 0);
 BOOL bSuccess = WriteFile ( hFile, buffer, strlen(buffer), &byte, NULL);
